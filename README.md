@@ -18,3 +18,5 @@ I'll lead you through a manual using the sources that I discovered to be incredi
 {% hint style="info" %}
 I am not going to send a prompt your way asking you to subscribe to pay to continue. Absolutely NOT.&#x20;
 {% endhint %}
+
+{% embed url="https://ramzys-journey.gitbook.io/java-track/" %}
