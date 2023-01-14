@@ -1,3 +1,3 @@
 # Table of contents
 
-* [JavaProgram-AngieJones](README.md)
+* [My Journey through Java](README.md)
