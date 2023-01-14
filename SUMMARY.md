@@ -12,4 +12,6 @@
     * [Objects](readme/learning-with-angie-jones/objects.md)
     * [Arrays](readme/learning-with-angie-jones/arrays.md)
     * [Text Processing](readme/learning-with-angie-jones/text-processing.md)
-  * [Conclusion](readme/conclusion.md)
+    * [Conclusion](readme/learning-with-angie-jones/conclusion.md)
+  * [Books](readme/books.md)
+  * [Cheat Sheets](readme/cheat-sheets.md)
