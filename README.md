@@ -3,6 +3,9 @@ description: >-
   Java is one of the most popular programming languages in the world, running on
   billions of devices across the globe. As such, being able to program in Java
   is a highly sought-after skill.
+cover: >-
+  https://ik.imagekit.io/dresma/Dresma_Library/java-js_Do7yX8xnGDeb.gif?updatedAt=1633495908673
+coverY: -20
 ---
 
 # My Journey through Java
@@ -18,3 +21,4 @@ I'll lead you through a manual using the sources that I discovered to be incredi
 {% hint style="info" %}
 I am not going to send a prompt your way asking you to "subscribe" to continue. Absolutely NOT.&#x20;
 {% endhint %}
+
