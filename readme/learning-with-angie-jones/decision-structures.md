@@ -19,3 +19,6 @@ In this tutorial, you will learn about control flow statements using Java if and
 In programming, we use the `if..else` statement to run a block of code among more than one alternatives.
 
 \
+
+
+{% embed url="https://youtu.be/U_64_dlB6Mc" %}
