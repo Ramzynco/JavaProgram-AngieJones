@@ -31,6 +31,8 @@ description: >-
 | `a < b`  | Less than             |
 | `a ≥ b`  | Greater than or equal |
 | `a ≤ b`  | Less than or equal    |
+
+{% file src="../.gitbook/assets/Boolean-Java.pdf" %}
 {% endtab %}
 
 {% tab title="Methods" %}
