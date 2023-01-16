@@ -1,6 +1,6 @@
 # Table of contents
 
-* [My Journey through Java](README.md)
+* [My Journey](README.md)
   * [Learning with Angie Jones](readme/learning-with-angie-jones.md)
     * [Introduction](readme/learning-with-angie-jones/introduction.md)
     * [Getting Started](readme/learning-with-angie-jones/getting-started.md)
@@ -13,5 +13,8 @@
     * [Arrays](readme/learning-with-angie-jones/arrays.md)
     * [Text Processing](readme/learning-with-angie-jones/text-processing.md)
     * [Conclusion](readme/learning-with-angie-jones/conclusion.md)
-  * [Books](readme/books.md)
-  * [Cheat Sheets](readme/cheat-sheets.md)
+  * [JavaScript, HTML and CSS](readme/javascript-html-and-css.md)
+* [Cheat Sheets](cheat-sheets/README.md)
+  * [Java](cheat-sheets/java.md)
+  * [HTML & CSS](cheat-sheets/html-and-css.md)
+* [Books](books.md)
