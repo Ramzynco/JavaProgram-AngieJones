@@ -97,6 +97,23 @@ public class UpperAndLowerCase {
 
 Strings are immutable, which means once we initialize them, their value cannot be changed. All methods that modify a string (like toUpperCase) return a new string object. The original string remains unaffected.
 
+
+
+#### Strings - Special Characters
+
+Because strings must be written within quotes, Java will misunderstand this string, and generate an error: \
+The solution to avoid this problem, is to use the **backslash escape character**.
+
+The backslash (`\`) escape character turns special characters into string characters:
+
+|  Escape character | Result | Description  |
+| ----------------- | ------ | ------------ |
+| \\'               | '      | Single quote |
+| \\"               | "      | Double quote |
+| \\\\              | \\     | Backslash    |
+
+
+
 {% hint style="info" %}
 For a deeper understanding refer this section from [W3 Schools](https://www.w3schools.com/java/java\_strings.asp)
 {% endhint %}
