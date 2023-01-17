@@ -32,13 +32,13 @@ There are eight primitive data types in Java |
 | `boolean` | 1 bit   | Stores true or false values                                                       |
 | `char`    | 2 bytes | Stores a single character/letter or ASCII values                                  |
 
+##
+
 &#x20;**Java User Input (Scanner)**
 
 The `Scanner` class is used to get user input, and it is found in the `java.util` package.
 
 To use the `Scanner` class, create an object of the class and use any of the available methods found in the `Scanner` class documentation. In our example, we will use the `nextLine()` method, which is used to read Strings:
-
-****
 
 | Method          | Description                           |
 | --------------- | ------------------------------------- |
