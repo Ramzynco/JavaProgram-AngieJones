@@ -61,18 +61,39 @@ The String class in Java provides a number of useful methods:&#x20;
 * endsWith(“a”)&#x20;
 * length()&#x20;
 
-<pre class="language-java" data-overflow="wrap" data-line-numbers><code class="lang-java"><strong>public class Main {
-</strong>  public static void main(String[] args) {
-    String txt = "//Your Full Name here";
-    System.out.println("The length of the txt string is: " + txt.length());
-  }
+{% code overflow="wrap" lineNumbers="true" %}
+```java
+package Strings;
+
+public class TextLength {
+        public static void main(String[] args) {
+            // Change the test in betwen " " to play around. // Try also by adding Spaces
+            String textYouEntered = "JavaWithRamzy";
+            System.out.println("Great! we just practiced how to find the length of a text and the length is - : " + textYouEntered .length());
+        }
 }
-</code></pre>
+```
+{% endcode %}
 
 * indexOf(“a”)&#x20;
+*
 * replace(“a”, “b”)&#x20;
 * toUpperCase()&#x20;
 * toLowerCase()&#x20;
+
+{% code overflow="wrap" lineNumbers="true" %}
+```java
+package Strings;
+
+public class UpperAndLowerCase {
+    public static void main(String[] args) {
+        String textYouEnter = "now look at that! you did it again!!";
+        System.out.println(textYouEnter.toUpperCase());
+        System.out.println(textYouEnter.toLowerCase());
+    }
+}
+```
+{% endcode %}
 
 Strings are immutable, which means once we initialize them, their value cannot be changed. All methods that modify a string (like toUpperCase) return a new string object. The original string remains unaffected.
 
@@ -81,12 +102,12 @@ For a deeper understanding refer this section from [W3 Schools](https://www.w3sc
 {% endhint %}
 
 {% hint style="success" %}
-CheckPoint | Test your Knowledge with these [6 Exercises](https://www.w3schools.com/java/exercise.asp?filename=exercise\_strings1)
+CheckPoint | Test your Knowledge with these [6 Exercises](https://github.com/Ramzynco/JavaWithRamzy/tree/main/letsAbsorbTheSyntax/strings)
+
+* [ ] [FindingTheCharacter.java](https://github.com/Ramzynco/JavaWithRamzy/blob/main/letsAbsorbTheSyntax/strings/FindingTheCharacter.java)
+* [ ] [TextLength.java](https://github.com/Ramzynco/JavaWithRamzy/blob/main/letsAbsorbTheSyntax/strings/TextLength.java)
+* [ ] [UpperAndLowerCase.java](https://github.com/Ramzynco/JavaWithRamzy/blob/main/letsAbsorbTheSyntax/strings/UpperAndLowerCase.java)
 {% endhint %}
-
-
-
-
 {% endtab %}
 
 {% tab title="Structures" %}
@@ -120,12 +141,3 @@ CheckPoint | Test your Knowledge with these [6 Exercises](https://www.w3schools.
 
 {% endtab %}
 {% endtabs %}
-
-####
-
-
-
-
-
-##
-
