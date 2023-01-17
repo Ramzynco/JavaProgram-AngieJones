@@ -60,6 +60,15 @@ The String class in Java provides a number of useful methods:&#x20;
 * startsWith(“a”)&#x20;
 * endsWith(“a”)&#x20;
 * length()&#x20;
+
+<pre class="language-java" data-overflow="wrap" data-line-numbers><code class="lang-java"><strong>public class Main {
+</strong>  public static void main(String[] args) {
+    String txt = "//Your Full Name here";
+    System.out.println("The length of the txt string is: " + txt.length());
+  }
+}
+</code></pre>
+
 * indexOf(“a”)&#x20;
 * replace(“a”, “b”)&#x20;
 * toUpperCase()&#x20;
