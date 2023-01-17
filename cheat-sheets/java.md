@@ -68,8 +68,14 @@ The String class in Java provides a number of useful methods:&#x20;
 Strings are immutable, which means once we initialize them, their value cannot be changed. All methods that modify a string (like toUpperCase) return a new string object. The original string remains unaffected.
 
 {% hint style="info" %}
-For a deeper understanding refer this section from [W3 Schools](https://www.w3schools.com/jsref/jsref\_obj\_string.asp)
+For a deeper understanding refer this section from [W3 Schools](https://www.w3schools.com/java/java\_strings.asp)
 {% endhint %}
+
+{% hint style="success" %}
+CheckPoint | Test your Knowledge with these [6 Exercises](https://www.w3schools.com/java/exercise.asp?filename=exercise\_strings1)
+{% endhint %}
+
+
 
 
 {% endtab %}
