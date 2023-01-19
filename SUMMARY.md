@@ -1,6 +1,7 @@
 # Table of contents
 
 * [My Journey](README.md)
+  * [An Intro to Git and GitHub for Beginners](readme/an-intro-to-git-and-github-for-beginners.md)
   * [Learning with Angie Jones](readme/learning-with-angie-jones.md)
     * [Introduction](readme/learning-with-angie-jones/introduction.md)
     * [Getting Started](readme/learning-with-angie-jones/getting-started.md)
@@ -15,6 +16,7 @@
     * [Conclusion](readme/learning-with-angie-jones/conclusion.md)
   * [JavaScript, HTML and CSS](readme/javascript-html-and-css.md)
 * [Cheat Sheets](cheat-sheets/README.md)
+  * [Git](cheat-sheets/git.md)
   * [Java](cheat-sheets/java.md)
   * [HTML & CSS](cheat-sheets/html-and-css.md)
 * [Books](books.md)
