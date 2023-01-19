@@ -1,7 +1,7 @@
 # Table of contents
 
 * [My Journey](README.md)
-  * [An Intro to Git and GitHub for Beginners](readme/an-intro-to-git-and-github-for-beginners.md)
+  * [An Intro to Git and GitHub](readme/an-intro-to-git-and-github.md)
   * [Learning with Angie Jones](readme/learning-with-angie-jones.md)
     * [Introduction](readme/learning-with-angie-jones/introduction.md)
     * [Getting Started](readme/learning-with-angie-jones/getting-started.md)
