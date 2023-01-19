@@ -2,7 +2,7 @@
 description: 'Step 0: Install git and create a GitHub account'
 ---
 
-# An Intro to Git and GitHub for Beginners
+# Intro to Git and GitHub
 
 The first two things you'll want to do are install git and create a free GitHub account.
 
