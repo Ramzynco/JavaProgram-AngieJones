@@ -139,6 +139,55 @@ CheckPoint | Test your Knowledge with these [6 Exercises](https://github.com/Ram
 | `a ≥ b`  | Greater than or equal |
 | `a ≤ b`  | Less than or equal    |
 
+\
+Boolean operators are like magic words that help you make decisions in your code. \
+\
+There are three main boolean operators in Java: `&&`, `||`, and `!`.\
+
+
+The `&&` operator means "and". You use it when you want both things to be true. For example:
+
+```typescript
+typescriptCopy codeint number = 8;
+boolean isGreaterThan5 = number > 5;
+boolean isLessThan10 = number < 10;
+
+if (isGreaterThan5 && isLessThan10) {
+    System.out.println("The number is greater than 5 and less than 10!");
+}
+```
+
+In this case, the message "The number is greater than 5 and less than 10!" will be printed on the screen because both `isGreaterThan5` and `isLessThan10` are `true`.
+
+\
+The `||` operator means "or". You use it when you want at least one of the things to be true. For example:
+
+```typescript
+typescriptCopy codeint number = 8;
+boolean isGreaterThan5 = number > 5;
+boolean isLessThan10 = number < 10;
+
+if (isGreaterThan5 || isLessThan10) {
+    System.out.println("The number is either greater than 5 or less than 10!");
+}
+```
+
+In this case, the message "The number is either greater than 5 or less than 10!" will be printed on the screen because `isGreaterThan5` is `true`.
+
+\
+The `!` operator means "not". You use it when you want to negate a boolean value. For example:
+
+```typescript
+typescriptCopy codeint number = 8;
+boolean isGreaterThan5 = number > 5;
+
+if (!isGreaterThan5) {
+    System.out.println("The number is not greater than 5!");
+}
+```
+
+In this case, the message "The number is not greater than 5!" will not be printed on the screen because `isGreaterThan5` is `true`.
+
 {% file src="../.gitbook/assets/Boolean-Java.pdf" %}
 {% endtab %}
 
