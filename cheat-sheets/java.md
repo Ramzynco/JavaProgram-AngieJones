@@ -188,6 +188,43 @@ if (!isGreaterThan5) {
 
 In this case, the message "The number is not greater than 5!" will not be printed on the screen because `isGreaterThan5` is `true`.
 
+\
+\
+The following tables summarises the boolean operators:
+
+**NOT**
+
+The veracity of the statement is reversed.
+
+| NOT | Statement | Result |
+| --- | --------- | ------ |
+| !   | true      | false  |
+| !   | false     | true   |
+
+**AND**
+
+If two statements are joined using _and_, the compound statement is true only if both parts are true.
+
+| Statement 1 | AND | Statement 2 | Result |
+| ----------- | --- | ----------- | ------ |
+| true        | &&  | true        | true   |
+| true        | &&  | false       | false  |
+| false       | &&  | true        | false  |
+| false       | &&  | false       | false  |
+
+**OR**
+
+If two statements are joined using _or_, the compound statement is true if any part is true.
+
+| Statement 1 | OR   | Statement 2 | Result |
+| ----------- | ---- | ----------- | ------ |
+| true        | \|\| | true        | true   |
+| true        | \|\| | false       | true   |
+| false       | \|\| | true        | true   |
+| false       | \|\| | false       | false  |
+
+The code exemplifies the usage of boolean operators.
+
 {% file src="../.gitbook/assets/Boolean-Java.pdf" %}
 {% endtab %}
 
