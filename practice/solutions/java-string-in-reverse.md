@@ -72,3 +72,18 @@ Here's what's happening step by step:
 
 If the letters are different, the word is not a palindrome, so the method returns `false`. If all the letters match up, then the word is a palindrome and the method returns `true`.
 
+#### To understand the thinking behind this code, you need to understand the problem it's solving and the steps required to solve it. Here's a step-by-step explanation of the thought process for coding a solution to check if a word is a palindrome:
+
+1. Identify the problem: The problem is to check if a given word is a palindrome, which is a word that reads the same forwards and backwards.
+2. Determine the solution: To determine if a word is a palindrome, you need to compare each letter in the word with its corresponding letter in the reverse of the word. If all the letters match up, then the word is a palindrome.
+3. Plan the code: To solve this problem, you need to write a function that takes a word as input and returns `true` if it's a palindrome and `false` if it's not. Here's a rough plan for the code:
+
+* Create a loop that runs as many times as there are letters in half of the word.
+* In each iteration of the loop, compare the current letter in the word with its corresponding letter in the reverse of the word.
+* If any of the letters are different, the word is not a palindrome, so return `false`.
+* If the loop has finished running and all the letters matched up, then the word is a palindrome, so return `true`.
+
+4. Write the code: Based on the plan, you can write the code to solve the problem. This code can then be improved and optimized as needed.
+
+By following this thought process, you can arrive at a solution to check if a word is a palindrome. The specific implementation of the code, such as using a `for` loop, checking if letters are equal using the `!=` operator, and using the `charAt` method to get individual letters from a string, is just one way to solve the problem. There are many other ways to write code to solve the same problem.
+
