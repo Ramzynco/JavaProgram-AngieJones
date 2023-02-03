@@ -37,5 +37,11 @@ Here, `condition` is an expression that can be either `true` or `false`. If the 
 You can also add an `else` clause to run code if the condition is false:
 
 ```
-// Some code
+if (condition) {
+   // code to be executed if condition is true
+} else {
+   // code to be executed if condition is false
+}
 ```
+
+That's the basic syntax for an `if` statement in Java!
