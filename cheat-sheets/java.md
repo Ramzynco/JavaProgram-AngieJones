@@ -52,6 +52,10 @@ To use the `Scanner` class, create an object of the class and use any of the ava
 | `nextShort()`   | Reads a `short` value from the user   |
 {% endtab %}
 
+{% tab title="Untitled" %}
+
+{% endtab %}
+
 {% tab title="Variables" %}
 #### Useful String Methods
 
@@ -229,7 +233,103 @@ The code exemplifies the usage of boolean operators.
 {% endtab %}
 
 {% tab title="Methods" %}
+Here's a simple example of how you can call a class in the main method and create an object from the class to call a method:
 
+```java
+class ExampleClass {
+  void methodToCall() {
+    System.out.println("This is a method in the ExampleClass");
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    ExampleClass exampleObject = new ExampleClass();
+    exampleObject.methodToCall();
+  }
+}
+```
+
+In this example, we have a class named `ExampleClass` which has a method named `methodToCall`. In the main method, we create an object of the `ExampleClass` using the `new` operator and store it in a variable `exampleObject`. Finally, we call the `methodToCall` method on the `exampleObject` using the dot (`.`) operator.
+
+Here's how the output of the program would look like:
+
+```java
+This is a method in the ExampleClassja
+```
+
+
+
+#### Imagine you have a toy box and inside that toy box, you have many toys. Each toy has its own name and it can do different things, like singing a song or flashing light.
+
+Now, you want to play with one of the toys in your toy box. To do that, you need to take that toy out of the toy box and make it ready to play with. This process is similar to creating an object from a class and calling a method on that object.
+
+In computer programming, the toy box is like a class, the toys inside it are like methods, and taking a toy out of the box and making it ready to play is like creating an object from a class.
+
+Here's the simple example code to make it clear:
+
+```java
+class ToyBox {
+  void play() {
+    System.out.println("Playing with the toy!");
+  }
+}
+
+public class Main {
+  public static void main(String[] args) {
+    ToyBox myToy = new ToyBox(); //taking a toy out of the toy box and making it ready to play
+    myToy.play(); // playing with the toy
+  }
+}
+```
+
+When you run the program, it will display the message "Playing with the toy!" on the screen, just like you played with the toy in your toy box.
+
+I hope this helps to understand the concept of calling a class in the main method and creating an object from the class to call a method.
+
+
+
+Let's break down the example code I gave earlier:
+
+```csharp
+class ToyBox {
+  void play() {
+    System.out.println("Playing with the toy!");
+  }
+}
+```
+
+The first line `class ToyBox` defines the beginning of a class, and the name of the class is `ToyBox`.
+
+The next line `void play()` defines a method named `play` in the `ToyBox` class. The keyword `void` is the return type of the method, which means that this method doesn't return any value. The code inside the curly braces `{}` is the body of the method, and it contains a single line of code that prints the message "Playing with the toy!".
+
+Now, let's look at the main method:
+
+```typescript
+public class Main {
+  public static void main(String[] args) {
+    ToyBox myToy = new ToyBox();
+    myToy.play();
+  }
+}
+```
+
+The first line `public class Main` defines the beginning of the `Main` class. The keyword `public` makes the class accessible from other classes.
+
+The next line `public static void main(String[] args)` defines the main method, which is the entry point of the Java program. The keyword `public` makes the method accessible from other classes, the keyword `static` means that this method belongs to the class and can be called without creating an object, and the keyword `void` is the return type of the method. The method takes an array of `String` arguments and it is accessible through the `args` parameter.
+
+In the body of the main method, we have two lines of code:
+
+```scss
+ToyBox myToy = new ToyBox();
+myToy.play();
+```
+
+The first line `ToyBox myToy = new ToyBox();` creates an object of the `ToyBox` class and assigns it to the variable `myToy`. The keyword `new` is used to create an object, and `ToyBox` is the name of the class that we want to create an object from.
+
+The second line `myToy.play();` calls the `play` method on the `myToy` object. We use the dot (`.`) operator to access the `play` method of the `myToy` object.
+
+So, when you run the program, it will create an object of the `ToyBox` class, call the `play` method on that object, and display the message "Playing with the toy!" on the screen.
 {% endtab %}
 
 {% tab title="Objects" %}
