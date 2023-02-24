@@ -52,10 +52,6 @@ To use the `Scanner` class, create an object of the class and use any of the ava
 | `nextShort()`   | Reads a `short` value from the user   |
 {% endtab %}
 
-{% tab title="Untitled" %}
-
-{% endtab %}
-
 {% tab title="Variables" %}
 #### Useful String Methods
 
@@ -333,7 +329,11 @@ So, when you run the program, it will create an object of the `ToyBox` class, ca
 {% endtab %}
 
 {% tab title="Objects" %}
-\
+As a beginner to Java, I found [this course](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3/learn-object-oriented-design-principles?autoplay=true\&resume=false) to be incredibly helpful in understanding the foundational concepts of object-oriented programming.
+
+Olivia and Barron present the material in a fun and interactive way, breaking down complex ideas into easy-to-understand concepts. They cover everything from object-oriented basics, such as objects and classes, to more advanced topics like encapsulation, inheritance, and domain modeling. I particularly appreciated the emphasis on identifying requirements, use cases, and scenarios, which helped me to better understand how to translate design into code.
+
+Overall, I found this course to be an excellent resource for anyone looking to improve their skills in object-oriented design. I would highly recommend it to anyone looking to gain a better understanding of this important topic.\
 
 {% endtab %}
 
