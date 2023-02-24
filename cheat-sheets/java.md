@@ -333,6 +333,11 @@ So, when you run the program, it will create an object of the `ToyBox` class, ca
 {% endtab %}
 
 {% tab title="Objects" %}
+\
+
+{% endtab %}
+
+{% tab title="Arrays" %}
 Arrays are a simple data structure for storing lots of similar items. They exist in all programming languages, and are used as the basis for most other data structures. On their own, Arrays can be used to solve many interesting problems. Arrays come up very often in interview problems, and so being a guru with them is a must!\
 
 
@@ -341,12 +346,7 @@ After completing this [Explore Card](https://leetcode.com/explore/featured/card/
 * What an Array is.
 * Basic properties of Arrays.
 * Implementing basic Array operations.
-* Simple programming techniques with Arrays.\
-
-{% endtab %}
-
-{% tab title="Arrays" %}
-
+* Simple programming techniques with Arrays.
 {% endtab %}
 
 {% tab title="Text Processing " %}
